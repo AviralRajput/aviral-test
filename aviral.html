@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Home Realty</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dream Home Reality</h1>
+            <nav>
+                <ul>
+                    <li><a href="aviral.html">Home</a></li>
+                    <li><a href="listings.html">Listings</a></li>
+                    
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Find Your Dream Home Today</h2>
+                <p>Explore the best real estate listings tailored to your needs.</p>
+                <a href="listings.html" class="btn">View Listings</a>
+            </div>
+            <!-- Hero Image -->
+            <img src="pic1.jpg" alt="Beautiful House" class="hero-image">
+        </section>
+
+        <section id="video-presentation" class="video-section">
+            <div class="container">
+                <h2>Our Property Tours</h2>
+                <p>Watch our video tour of exclusive properties to help you find your perfect home.</p>
+                <!-- Video Embed -->
+                <video width="100%" height="auto" controls autoplay loop>
+                    <source src="vid2.mp4" type="video/mp4" >
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="search" class="search-section">
+            <div class="container">
+               <h1> <center><b><u><i>Search Properties</i></u></b></center><br></h1>
+               <h2>
+            <center>
+                <form id="search-form">
+                    <input type="text" id="search-keyword" placeholder="Search by keyword..." required>
+                    <select id="property-type">
+                        <option value="">Property Type</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="villa">Villa</option>
+                    </select>
+                    <select id="price-range">
+                        <option value="">Price Range</option>
+                        <option value="0-9000000">Up to 90 Lakh</option>
+                        <option value="9000000-20000000">90 Lakh - 2 Cr.</option>
+                        <option value="20000000+">Above 2 Cr.</option>
+                    </select>
+                    <button type="submit" class="btn">Search</button>
+                </form></h2></center>
+            </div>
+        </section>
+
+        <section id="featured-properties" class="properties-section">
+            <div class="container">
+                <h2>Featured Properties</h2>
+                <div class="property-card">
+                    <img src="pic4.jpg" alt="Property 1" class="property-image">
+                    <div class="property-info">
+                        <h3>Luxury Villa in Beverly Hills</h3>
+                        <p>2 Cr. - 4 Bed, 4 Bath</p>
+                        <a href="villa.html" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="pic9.jpg" alt="Property 2" class="property-image">
+                    <div class="property-info">
+                        <h3>Modern Downtown Apartment</h3>
+                        <p>95 Lakh - 2 Bed, 2 Bath</p>
+                        <a href="apartment.html" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="pic8.jpg" alt="Property 3" class="property-image">
+                    <div class="property-info">
+                        <h3>Ocean View Penthouse</h3>
+                        <p>80 Lakh - 3 Bed, 3 Bath</p>
+                        <a href="house.html" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="login" class="login-section">
+            <div class="container">
+                <h2>User Login</h2>
+                <form id="login-form">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit" class="btn">Login</button>
+                </form>
+                <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dream Home Realty. All Rights Reserved.</p>
+            <ul>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
